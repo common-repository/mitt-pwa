@@ -1,0 +1,69 @@
+
+html, body {
+  overscroll-behavior-y: contain;
+}
+
+.pull-to-refresh {
+  height: 100px;
+  position: absolute;
+  top: 0;
+  background-color: "#fff";
+  margin-top: 55px;
+  margin-bottom: 10px;
+  box-shadow: inset 0px -2px 6px 1px transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+
+.pull-to-refresh.visible-pull {
+  height: 50px;
+  visibility: visible;
+  position: unset;
+}
+
+.pull-to-refresh.hidden-pull {
+  height: 0;
+  visibility: hidden;
+}
+
+.pull-to-refresh .pull-to-refresh-status {
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.pull-to-refresh .pull-to-refresh-loader {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border: 5px solid rgba(0, 0, 0, 0.56);
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+  position: fixed;
+  top: 0;
+  left: 45%;
+}
+
+.pull-to-refresh .pull-to-refresh-loader.animate {
+  animation: spin 1.25s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.start-pull {
+  transform: translateY(-200px);
+}
+
+.end-pull {
+  transform: translateY(-200px) !important;
+  transition: 0.4s ease-in-out;
+}
+

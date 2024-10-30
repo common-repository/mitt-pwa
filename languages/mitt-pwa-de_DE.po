@@ -1,0 +1,662 @@
+# Copyright (C) 2023 mittl medien, Robert Mittl
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: miTT PWA for WP 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mitt-pwa\n"
+"Last-Translator: Robert Mittl info@mittl-medien.de\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-07-30T09:58:35+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: mitt-pwa\n"
+
+#. Plugin Name of the plugin
+msgid "miTT PWA for WP"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://mittl-medien.de/product-wordpress-pwa"
+msgstr ""
+
+#. Description of the plugin
+msgid "miTT PWA creates an installable app from a WordPress site."
+msgstr "miTT PWA erstellt eine installierbare App aus einer WordPress-Website."
+
+#. Author of the plugin
+msgid "mittl medien, Robert Mittl"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://mittl-medien.de"
+msgstr ""
+
+#: inc/admin/class-settings.php:83
+msgid "General"
+msgstr "Allgemein"
+
+#: inc/admin/class-settings.php:92
+#: inc/admin/class-settings.php:107
+msgid "Time Intervall"
+msgstr "Zeitintervall"
+
+#: inc/admin/class-settings.php:121
+msgid "Pull to Refresh"
+msgstr "Pull to Refresh"
+
+#: inc/admin/class-settings.php:135
+#: inc/admin/class-settings.php:1296
+msgid "Overwrite Scope Service Worker File"
+msgstr "Scope der Service Worker Datei überschreiben"
+
+#: inc/admin/class-settings.php:150
+msgid "Overwrite Scope of the APP"
+msgstr "Überschreibe Scope der APP"
+
+#: inc/admin/class-settings.php:164
+msgid "Scope of the APP"
+msgstr "App Scope"
+
+#: inc/admin/class-settings.php:178
+msgid "Debug Mode"
+msgstr "Debug Modus"
+
+#: inc/admin/class-settings.php:192
+msgid "Unregister Service Worker"
+msgstr "Unregister Service Worker"
+
+#: inc/admin/class-settings.php:206
+msgid "Cache"
+msgstr "Cache"
+
+#: inc/admin/class-settings.php:214
+#: inc/admin/class-settings.php:1403
+msgid "Cache First"
+msgstr "Cache First"
+
+#: inc/admin/class-settings.php:228
+msgid "Cache First depend on Network Connection"
+msgstr "Cache First abhängig von Netzwerkverbindung"
+
+#: inc/admin/class-settings.php:242
+msgid "CDN"
+msgstr "CDN"
+
+#: inc/admin/class-settings.php:256
+msgid "Static Cache"
+msgstr "Statischer Cache"
+
+#: inc/admin/class-settings.php:270
+msgid "Cache Exceptions"
+msgstr "Cache Ausnahmen"
+
+#: inc/admin/class-settings.php:284
+msgid "Debug Fetch Requests"
+msgstr "Debug Fetch Requests"
+
+#: inc/admin/class-settings.php:298
+msgid "Fetch Exceptions"
+msgstr "Fetch Ausnahmen"
+
+#: inc/admin/class-settings.php:312
+#: inc/admin/class-settings.php:1647
+msgid "Debug Fetch Exceptions"
+msgstr "Debug Fetch Ausnahmen"
+
+#: inc/admin/class-settings.php:326
+msgid "Manifest"
+msgstr "Manifest"
+
+#: inc/admin/class-settings.php:334
+msgid "App Short Name"
+msgstr "App Short Name"
+
+#: inc/admin/class-settings.php:349
+msgid "App Name"
+msgstr "App Name"
+
+#: inc/admin/class-settings.php:363
+msgid "Start Url"
+msgstr "Start Url"
+
+#: inc/admin/class-settings.php:377
+msgid "App Id"
+msgstr "App Id"
+
+#: inc/admin/class-settings.php:392
+msgid "App Description"
+msgstr "App Beschreibung"
+
+#: inc/admin/class-settings.php:406
+msgid "Use App Shortcuts"
+msgstr "App Shortcuts verwenden"
+
+#: inc/admin/class-settings.php:420
+msgid "App Shortcut Items"
+msgstr "App Shortcut Items"
+
+#: inc/admin/class-settings.php:434
+msgid "Use Protocol Handler"
+msgstr "Protocol Handler verwenden"
+
+#: inc/admin/class-settings.php:448
+msgid "Protocol Handler Items"
+msgstr "Protocol Handler Items"
+
+#: inc/admin/class-settings.php:462
+msgid "Background Color"
+msgstr "Background Color"
+
+#: inc/admin/class-settings.php:476
+msgid "Theme Color"
+msgstr "Theme Color"
+
+#: inc/admin/class-settings.php:490
+msgid "App Display"
+msgstr "App Display"
+
+#: inc/admin/class-settings.php:506
+msgid "Use SVG Icon"
+msgstr "SVG Icon verwenden"
+
+#: inc/admin/class-settings.php:520
+msgid "Use only folder for icons"
+msgstr "Ordner für Icons verwenden"
+
+#: inc/admin/class-settings.php:534
+msgid "Manifest Icon"
+msgstr "Manifest Icon"
+
+#: inc/admin/class-settings.php:548
+msgid "Manifest Icon Maskable"
+msgstr "Manifest Icon Maskable"
+
+#: inc/admin/class-settings.php:563
+msgid "Use App Screenshots"
+msgstr "App Screenshots verwenden"
+
+#: inc/admin/class-settings.php:578
+msgid "App Screenshots"
+msgstr "App Screenshots"
+
+#: inc/admin/class-settings.php:593
+msgid "iOS Icon"
+msgstr "iOS Icon"
+
+#: inc/admin/class-settings.php:607
+msgid "iOS Splashscreen"
+msgstr "iOS Splashscreen"
+
+#: inc/admin/class-settings.php:621
+msgid "iOS Status Bar"
+msgstr "iOS Status Bar"
+
+#: inc/admin/class-settings.php:635
+#: inc/admin/class-settings.php:650
+msgid "Show Install Banner iOS"
+msgstr "iOS Installations-Banner anzeigen"
+
+#: inc/admin/class-settings.php:668
+msgid "iOS Banner Popup Click"
+msgstr "iOS Banner Popup Click"
+
+#: inc/admin/class-settings.php:682
+msgid "iOS Banner Custom Page"
+msgstr "iOS Banner benutzerdefinierte Seite"
+
+#: inc/admin/class-settings.php:698
+msgid "App Installation Button"
+msgstr "App Installations-Button"
+
+#: inc/admin/class-settings.php:712
+msgid "Push Notification"
+msgstr "Push Nachrichten"
+
+#: inc/admin/class-settings.php:722
+msgid "Title for Push Notification"
+msgstr "Titel der Push Nachrichten"
+
+#: inc/admin/class-settings.php:736
+msgid "Push Messaging Channel List (Topics)"
+msgstr "Push Nachrichten Channel Liste (Firebase Topics)"
+
+#: inc/admin/class-settings.php:750
+#: inc/admin/class-settings.php:2474
+msgid "Push App Badge Icon"
+msgstr "Push App Badge Icon"
+
+#: inc/admin/class-settings.php:764
+msgid "Firebase Analytics Beta"
+msgstr "Firebase Analytics Beta"
+
+#: inc/admin/class-settings.php:778
+#: inc/admin/class-settings.php:1173
+msgid "Firebase Settings"
+msgstr "Firebase Einstellungen"
+
+#: inc/admin/class-settings.php:786
+msgid "Firebase ApiKey"
+msgstr "Firebase ApiKey"
+
+#: inc/admin/class-settings.php:800
+msgid "Firebase AuthDomain"
+msgstr "Firebase AuthDomain"
+
+#: inc/admin/class-settings.php:814
+msgid "Firebaser ProjectId"
+msgstr "Firebaser ProjectId"
+
+#: inc/admin/class-settings.php:828
+msgid "Firebase StorageBucket"
+msgstr "Firebase StorageBucket"
+
+#: inc/admin/class-settings.php:842
+msgid "Firebase MessagingSenderId"
+msgstr "Firebase MessagingSenderId"
+
+#: inc/admin/class-settings.php:856
+msgid "Firebase AppId"
+msgstr "Firebase AppId"
+
+#: inc/admin/class-settings.php:870
+msgid "Firebase MeasurementId"
+msgstr "Firebase MeasurementId"
+
+#: inc/admin/class-settings.php:884
+msgid "Firebase Public VapidKey"
+msgstr "Firebase Public VapidKey"
+
+#: inc/admin/class-settings.php:898
+msgid "Service Account File Path"
+msgstr "Service Account Datei Pfad"
+
+#: inc/admin/class-settings.php:912
+msgid "Service Account File Name"
+msgstr "Service Account Datei Name"
+
+#: inc/admin/class-settings.php:926
+#: inc/admin/class-settings.php:1182
+msgid "Sync"
+msgstr "Sync"
+
+#: inc/admin/class-settings.php:934
+msgid "Register Page Sync"
+msgstr "Register Page Sync"
+
+#: inc/admin/class-settings.php:948
+msgid "Page Sync Interval"
+msgstr "Page Sync Interval"
+
+#: inc/admin/class-settings.php:962
+msgid "Page Sync Page"
+msgstr "Page Sync Seite"
+
+#: inc/admin/class-settings.php:976
+msgid "Unregister Page Sync"
+msgstr "Unregister Page Sync"
+
+#: inc/admin/class-settings.php:991
+msgid "Register Image Sync"
+msgstr "Register Image Sync"
+
+#: inc/admin/class-settings.php:1005
+msgid "Image Sync Interval"
+msgstr "Image Sync Interval"
+
+#: inc/admin/class-settings.php:1020
+msgid "Image Sync Image"
+msgstr "Image Sync Image"
+
+#: inc/admin/class-settings.php:1035
+msgid "Unregister Image Sync"
+msgstr "Unregister Image Sync"
+
+#: inc/admin/class-settings.php:1050
+#: inc/admin/class-settings.php:1191
+msgid "Statistic"
+msgstr "Statistik"
+
+
+#: inc/admin/class-settings.php:1073
+#: inc/admin/class-settings.php:1200
+msgid "Update"
+msgstr "Update"
+
+#: inc/admin/class-settings.php:1081
+msgid "Update Key"
+msgstr "Update Key"
+
+#: inc/admin/class-settings.php:1095
+#: inc/admin/class-settings.php:1209
+msgid "Changelog"
+msgstr "Changelog"
+
+#: inc/admin/class-settings.php:1137
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: inc/admin/class-settings.php:1146
+msgid "Cache Settings"
+msgstr "Cache Einstellungen"
+
+#: inc/admin/class-settings.php:1155
+msgid "Manifest Settings"
+msgstr "Manifest Einstellungen"
+
+#: inc/admin/class-settings.php:1164
+msgid "Push Notification Settings"
+msgstr "Push Nachrichten Einstellungen"
+
+#: inc/admin/class-settings.php:1234
+msgid "1 h"
+msgstr "1 h"
+
+#: inc/admin/class-settings.php:1237
+msgid "3 h"
+msgstr "3 h"
+
+#: inc/admin/class-settings.php:1240
+msgid "6 h"
+msgstr "6 h"
+
+#: inc/admin/class-settings.php:1243
+msgid "12 h"
+msgstr "12 h"
+
+#: inc/admin/class-settings.php:1246
+msgid "23 h"
+msgstr "23 h    "
+
+#: inc/admin/class-settings.php:1250
+msgid "Time Intervall to update the Service Worker in the Background"
+msgstr "Zeitintervall für die Aktualisierung des Service Workers im Hintergrund"
+
+#: inc/admin/class-settings.php:1266
+#: inc/admin/class-settings.php:1292
+#: inc/admin/class-settings.php:1319
+#: inc/admin/class-settings.php:1355
+#: inc/admin/class-settings.php:1378
+#: inc/admin/class-settings.php:1456
+#: inc/admin/class-settings.php:1571
+#: inc/admin/class-settings.php:1643
+#: inc/admin/class-settings.php:1735
+#: inc/admin/class-settings.php:1916
+#: inc/admin/class-settings.php:2085
+#: inc/admin/class-settings.php:2107
+#: inc/admin/class-settings.php:2161
+#: inc/admin/class-settings.php:2183
+#: inc/admin/class-settings.php:2490
+#: inc/admin/class-settings.php:2655
+#: inc/admin/class-settings.php:2779
+#: inc/admin/class-settings.php:2799
+#: inc/admin/class-settings.php:2917
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/admin/class-settings.php:1269
+#: inc/admin/class-settings.php:1289
+#: inc/admin/class-settings.php:1316
+#: inc/admin/class-settings.php:1352
+#: inc/admin/class-settings.php:1375
+#: inc/admin/class-settings.php:1453
+#: inc/admin/class-settings.php:1568
+#: inc/admin/class-settings.php:1640
+#: inc/admin/class-settings.php:1738
+#: inc/admin/class-settings.php:1919
+#: inc/admin/class-settings.php:2088
+#: inc/admin/class-settings.php:2110
+#: inc/admin/class-settings.php:2164
+#: inc/admin/class-settings.php:2186
+#: inc/admin/class-settings.php:2493
+#: inc/admin/class-settings.php:2658
+#: inc/admin/class-settings.php:2776
+#: inc/admin/class-settings.php:2802
+#: inc/admin/class-settings.php:2914
+msgid "No"
+msgstr "Nein"
+
+#: inc/admin/class-settings.php:1273
+msgid "Pull to Refresh as know from Native Apps"
+msgstr "Pull to Refresh wie von nativen Apps bekannt"
+
+#: inc/admin/class-settings.php:1323
+msgid "Overwrite Scope Service Worker App"
+msgstr "Scope des Service Workers der App überschreiben"
+
+#: inc/admin/class-settings.php:1359
+msgid "Debug shows console.log in the Browser Console"
+msgstr "Debug zeigt console.log in der Browser Console"
+
+#: inc/admin/class-settings.php:1382
+msgid "Do only activated, if you would like to quit the app"
+msgstr "Nur aktivieren, wenn die App beendet werden soll"
+
+#: inc/admin/class-settings.php:1400
+msgid "Network First"
+msgstr "Network First"
+
+#: inc/admin/class-settings.php:1407
+msgid "Cache or Network First"
+msgstr "Cache oder Network First"
+
+#: inc/admin/class-settings.php:1423
+msgid "Off"
+msgstr "Off "
+
+#: inc/admin/class-settings.php:1426
+msgid "slow-2g"
+msgstr "slow-2g"
+
+#: inc/admin/class-settings.php:1429
+msgid "2g"
+msgstr "2g"
+
+#: inc/admin/class-settings.php:1432
+msgid "3g"
+msgstr "3g"
+
+#: inc/admin/class-settings.php:1436
+msgid "Force cache first, if slow network (only chromium based browsers)"
+msgstr "Erzwinge zuerst den Cache, wenn das Netzwerk langsam ist (nur Chromium-basierte Browser)"
+
+#: inc/admin/class-settings.php:1460
+msgid "Do you use a CDN?"
+msgstr "Verwenden Sie ein CDN?"
+
+#: inc/admin/class-settings.php:1472
+#: inc/admin/class-settings.php:1519
+#: inc/admin/class-settings.php:1586
+msgid "in seconds;"
+msgstr "in Sekunden;"
+
+#: inc/admin/class-settings.php:1473
+#: inc/admin/class-settings.php:1520
+#: inc/admin/class-settings.php:1587
+msgid "You need to enter time in seconds"
+msgstr "Sie müssen die Zeit in Sekunden eingeben"
+
+#: inc/admin/class-settings.php:1504
+#: inc/admin/class-settings.php:1551
+msgid "set the path to the static file"
+msgstr "den Pfad zur statischen Datei festlegen"
+
+#: inc/admin/class-settings.php:1575
+msgid "Debug Fetch Request"
+msgstr "Fetch Request debuggen"
+
+#: inc/admin/class-settings.php:1618
+msgid "the word contain in the path of the request"
+msgstr "das Wort ist im Request-Pfad enthalten"
+
+#: inc/admin/class-settings.php:1898
+msgid "App Shortcut setting"
+msgstr "App Shortcut Einstellung"
+
+#: inc/admin/class-settings.php:1995
+msgid "Protocol Handler setting"
+msgstr "Protokoll Handler Einstellung"
+
+#: inc/admin/class-settings.php:2020
+msgid "Background Color setting"
+msgstr "Background Color Einstellung"
+
+#: inc/admin/class-settings.php:2040
+msgid "Theme Color setting"
+msgstr "Theme Color Einstellung"
+
+#: inc/admin/class-settings.php:2055
+msgid "standalone"
+msgstr "standalone"
+
+#: inc/admin/class-settings.php:2058
+msgid "fullscreen"
+msgstr "fullscreen"
+
+#: inc/admin/class-settings.php:2061
+msgid "minimal-ui"
+msgstr "minimal-ui"
+
+#: inc/admin/class-settings.php:2064
+msgid "browser"
+msgstr "browser"
+
+#: inc/admin/class-settings.php:2068
+msgid "standalone is like the app like setting (recommended)"
+msgstr "standalone ist wie eine App (empfohlen)"
+
+#: inc/admin/class-settings.php:2092
+msgid "Please upload the icon to the /asset/icons/ folder"
+msgstr "Bitte laden Sie die Icons in den Ordner /asset/icons/ hoch"
+
+#: inc/admin/class-settings.php:2114
+msgid "use only /asset/icons/ folder for icons - recommendation if you use all icons"
+msgstr " /asset/icons/ für icons benützen - empfohlen wenn alle Icons verwendet werden"
+
+#: inc/admin/class-settings.php:2131
+#: inc/admin/class-settings.php:2147
+msgid "Icon with 512 x 512px"
+msgstr "Icon mit 512 x 512px"
+
+#: inc/admin/class-settings.php:2259
+msgid "Screenshots improve the Install Banner"
+msgstr "Screenshots verbessern den Installationsbanner"
+
+#: inc/admin/class-settings.php:2280
+msgid "Icon with 180 x 180px"
+msgstr "Icon mit 180 x 180px"
+
+#: inc/admin/class-settings.php:2297
+msgid "Generate you iOS Splash Screen Images"
+msgstr "Generieren Sie Ihre iOS Splash Screen Bilder"
+
+#: inc/admin/class-settings.php:2311
+msgid "default"
+msgstr "default"
+
+#: inc/admin/class-settings.php:2314
+msgid "black"
+msgstr "black"
+
+#: inc/admin/class-settings.php:2317
+msgid "black-translucent"
+msgstr "black-translucent"
+
+#: inc/admin/class-settings.php:2338
+msgid "Alert Pop Up"
+msgstr "Alert Pop Up"
+
+#: inc/admin/class-settings.php:2341
+msgid "Custom Alert Page"
+msgstr "Custom Alert Page"
+
+#: inc/admin/class-settings.php:2381
+msgid "Standard (Install Prompt)"
+msgstr "Standard (Install Prompt)"
+
+#: inc/admin/class-settings.php:2384
+msgid "Custom Button + Prevent Install Prompt"
+msgstr "Custom Button + Prevent Install Prompt"
+
+#: inc/admin/class-settings.php:2387
+msgid "Custom Button + Install Prompt"
+msgstr "Custom Button + Install Prompt"
+
+#: inc/admin/class-settings.php:2390
+msgid "Prevent Install Prompt"
+msgstr "Prevent Install Prompt"
+
+#: inc/admin/class-settings.php:2451
+msgid "Set your channel topic name like \"mytopic_channel\""
+msgstr "Legen Sie den Topicchannel Namen fest, z.B. \"mytopic_channel\""
+
+#: inc/admin/class-settings.php:2618
+msgid "Standard"
+msgstr "Standard"
+
+#: inc/admin/class-settings.php:2621
+msgid "Custom"
+msgstr "Custom"
+
+#: inc/admin/class-settings.php:2625
+msgid "Standard Path is one folder above the root folder"
+msgstr "Standardpfad ist ein Ordner über dem Root-Ordner"
+
+#: inc/admin/class-settings.php:2676
+#: inc/admin/class-settings.php:2820
+msgid "3h"
+msgstr "3h"
+
+#: inc/admin/class-settings.php:2679
+#: inc/admin/class-settings.php:2823
+msgid "6h"
+msgstr "6h"
+
+#: inc/admin/class-settings.php:2682
+#: inc/admin/class-settings.php:2826
+msgid "12h"
+msgstr "12h"
+
+#: inc/admin/class-settings.php:2685
+#: inc/admin/class-settings.php:2829
+msgid "23h"
+msgstr "23h"
+
+#: inc/admin/class-settings.php:2758
+msgid "Pages will be sync in the background (chromium based feature)"
+msgstr "Die Seiten werden im Hintergrund synchronisiert (Chromium-basierte Funktion)"
+
+#: inc/admin/class-settings.php:2896
+msgid "images will be sync in the background (chromium based feature)"
+msgstr "Bilder werden im Hintergrund synchronisiert (Chromium-basierte Funktion)"
+
+#: inc/admin/class-settings.php:2945
+msgid "grab the update key and put in there"
+msgstr "Feld für den Update Key"
+
+#: inc/admin/class-settings.php:2996
+msgid "Settings Saved"
+msgstr "Einstellungen gespeichert"
+
+#: serviceworker/class-firebase.php:251
+msgid "Subscribed to push notifications"
+msgstr "Push Nachrichten abonniert"
+
+#: serviceworker/class-firebase.php:252
+msgid "Push notifications were successfully subscribed"
+msgstr "Push-Benachrichtigungen wurden erfolgreich abonniert"
+
+#: serviceworker/class-firebase.php:277
+msgid "Unsubscribed to push notifications"
+msgstr "Push-Benachrichtigungen abbestellt"
+
+#: serviceworker/class-firebase.php:278
+msgid "Push notifications were successfully unsubscribed"
+msgstr "Push-Benachrichtigungen wurden erfolgreich abbestellt"
+
+#: serviceworker/class-firebase.php:301
+#: serviceworker/class-firebase.php:302
+msgid "Unsubscribed from all Push Notifications"
+msgstr "Unsubscribed from all Push Notifications"

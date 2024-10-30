@@ -1,0 +1,200 @@
+:root {
+  --card-bg: hsla(0, 0%, 100%, .7);
+  --bluegray: #b2bfcd;
+  --lightbluegray: #f6f9fc;
+  --toolbar-bg: #fff;
+  --success-border: var(--success);
+  --info-border: var(--info);
+  --warning-border: var(--warning);
+  --danger-border: var(--danger);
+  --login-main-bg: #0b1c32;
+  --border: #cdcdcd;
+  --white: #fff;
+  --white-offset: #fefefe;
+  --focus: #39f;
+  --focus-shadow: #eaeaea;
+  --toggle-color: #fff;
+  --gray-100: #f8f9fa;
+  --gray-200: #e8e8e8;
+  --gray-300: #dee2e6;
+  --gray-400: #cdcdcd;
+  --gray-500: #adb5bd;
+  --gray-600: #666e76;
+  --gray-700: #495057;
+  --gray-800: #343a40;
+  --gray-900: #212529;
+  --primary: #132f53;
+  --secondary: #495057;
+  --success: #457d54;
+  --info: #2a69b8;
+  --warning: #ffb514;
+  --danger: #c52827;
+  --light: #f8f9fa;
+  --dark: #212529;
+  --action: #132f53;
+  --error: #3b0d0c;
+  --alert-success: #0f2f21;
+  --primary-rgb: 19, 47, 83;
+  --secondary-rgb: 73, 80, 87;
+  --success-rgb: 69, 125, 84;
+  --info-rgb: 42, 105, 184;
+  --warning-rgb: 255, 181, 20;
+  --danger-rgb: 197, 40, 39;
+  --light-rgb: 248, 249, 250;
+  --dark-rgb: 33, 37, 41;
+  --action-rgb: 19, 47, 83;
+  --error-rgb: 59, 13, 12;
+  --alert-success-rgb: 15, 47, 33;
+  --white-rgb: 255, 255, 255;
+  --black-rgb: 0, 0, 0;
+  --body-color-rgb: 33, 37, 41;
+  --body-bg-rgb: 255, 255, 255;
+  --font-sans-serif: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --gradient: linear-gradient(180deg, hsla(0, 0%, 100%, .15), hsla(0, 0%, 100%, 0));
+  --body-font-family: var(--font-sans-serif);
+  --body-font-size: 1rem;
+  --body-font-weight: 400;
+  --body-line-height: 1.5;
+  --body-color: #212529;
+  --body-bg: #fff;
+  --border-width: 1px;
+  --border-style: solid;
+  --border-color: #dee2e6;
+  --border-color-translucent: rgba(0, 0, 0, .175);
+  --border-radius: 0.25rem;
+  --border-radius-sm: 0.2rem;
+  --border-radius-lg: 0.3rem;
+  --border-radius-xl: 0.3rem;
+  --border-radius-2xl: 0.3rem;
+  --border-radius-pill: 50rem;
+  --link-color: var(--template-link-color);
+  --link-hover-color: var(--template-link-hover-color);
+  --code-color: #971250;
+  --highlight-bg: #fff0d0;
+}
+
+
+
+.mittpwa_multiple_input {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.mittpwa_multiple_input input {
+  margin-bottom: 10px;
+  min-width: 45vw;
+}
+
+.mittpwa_multiple_input select {
+  margin-bottom: 10px;
+}
+
+.mittpwa_label_input {
+  display: flex;
+  align-content: baseline;
+  align-items: baseline;
+}
+
+.mittpwa_label_input label {
+  min-width: 180px;
+}
+
+.mittpwawp_nav_tabs {
+  display: flex;
+}
+
+.mittpwawp_nav_tabs li {
+  padding: 8px 12px;
+  border-bottom: 1px solid #9f9f9f;
+}
+
+.mittpwawp_nav_tabs li a {
+  text-decoration: none;
+  font-size: 1.1em;
+  color: black;
+}
+
+.mittpwawp_nav_tabs li.active {
+  border-top: 1px solid #9f9f9f;
+  border-right: 1px solid #9f9f9f;
+  border-left: 1px solid #9f9f9f;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-bottom: unset;
+}
+
+.mittpwawp_nav_tabs li.active a {
+  /*font-weight: bolder;*/
+}
+
+.mittpwa-sidebar-content {
+  padding: 16px;
+}
+
+.changelog {
+
+
+}
+
+.changelog__tag {
+  flex-basis: 180px;
+}
+
+.changelog__list {
+  flex-basis: 100%;
+}
+
+.changelog__item {
+  display: flex;
+  align-content: center;
+  align-items: center;
+
+}
+
+.badge {
+  --badge-padding-x: 0.2rem;
+  --badge-padding-y: 0.3rem;
+  --badge-font-size: 0.75rem;
+  --badge-font-weight: 700;
+  --badge-color: #fff;
+  --badge-border-radius: 0.2rem;
+  border-radius: var(--badge-border-radius);
+  color: var(--badge-color);
+  display: inline-block;
+  font-size: var(--badge-font-size);
+  font-weight: var(--badge-font-weight);
+  line-height: 1;
+  padding: var(--badge-padding-y) var(--badge-padding-x);
+  text-align: center;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.changelog__tag .badge {
+  border-radius: 0.2rem;
+}
+.bg-dark {
+  background-color: var(--dark) !important;
+}
+
+.bg-success {
+  background-color: var(--success) !important;
+}
+
+.bg-info {
+  background-color: var(--info) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary) !important;
+}
+
+
+#mittpwawp_section_push_notification + table th[scope="row"],
+#mittpwawp_section_sync + table th[scope="row"],
+#mittpwawp_section_firebase_settings+table th[scope="row"]
+{
+  display: none !important;
+}
